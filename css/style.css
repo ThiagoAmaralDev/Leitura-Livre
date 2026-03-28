@@ -51,7 +51,7 @@ body {
 }
 
 .cabecalho a:hover {
-    background-color: var(--verde-escuro);
+    color: var(--verde-claro);
     
 }
 
@@ -84,6 +84,11 @@ body {
     color: #fff;
     text-decoration: none;
     
+}
+
+.cabecalho .btn:hover {
+    background-color: var(--verde-escuro);
+    color: #fff;
 }
 
 .info-site {
