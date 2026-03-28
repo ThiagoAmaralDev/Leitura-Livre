@@ -17,9 +17,7 @@
   --destaque: #c9622f;
 }
 
-body {
-    background-color: var(--marrom);
-}
+
 
 .cabecalho {
     display: flex;
@@ -99,6 +97,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: var(--marrom); 
 }
 
 .divisao-info {
