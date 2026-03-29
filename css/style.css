@@ -193,7 +193,6 @@
 }
 
 .plano-container {
-    border: 1px solid red;
     background-color: var(--creme-escuro);
     padding: 4rem 5%;
 
@@ -206,7 +205,6 @@
 }
 
 .plano-header h2 {
-
     font-size: 40px;
 }
 
@@ -216,7 +214,6 @@
 }
 
 .planos-lista {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -246,7 +243,7 @@
 
     margin: 0 auto;
     /* Deixando em cima do card */
-    margin-bottom: -20px;
+    margin-bottom: -60px;
     position: relative;
     z-index: 1;
 }
@@ -256,7 +253,7 @@
     color: #fff;
     width: 100%;
     text-align: center;
-    padding: 1.5em 1em;
+    padding: 4em 1em 1em;
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -286,11 +283,12 @@
     border-radius: 0;
     font-size: 15px;
     letter-spacing: 1px;
+    transition: background-color 0.3s;
+
 }
 
 .plano .btn:hover {
     background-color: var(--verde-escuro);
-    transition: background-color 0.5s;
 }
 
 .plano.destaque .plano-preco {
@@ -303,5 +301,64 @@
 
 .plano.destaque .btn:hover {
     background-color: #9d4b22;
+    
+}
+
+/* busca livro */
+
+.busca-container {
+    background-color: var(--verde-escuro);
+    width: 100%;
+    min-height: 320px;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.busca-header {
+    padding-top: 5em;
+}
+
+.busca-header h2 {
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+
+}
+
+.busca-header p {
+
+    margin-top: 5px;
+    color: var(--verde-claro);
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.busca-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.busca-input {
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.busca-container .btn {
+
+    background-color: var(--destaque); 
     transition: background-color 0.5s;
+    text-transform: none;
+}
+
+.busca-container .btn:hover {
+    background-color: #9d4b22;
+    
+
 }
