@@ -160,7 +160,6 @@
 }
 
 .servicos-container {
-    border: 1px solid red;
     background-color: var(--creme);
     padding: 5rem 5%;
     display: flex;
@@ -193,3 +192,116 @@
     margin-top: 10px;
 }
 
+.plano-container {
+    border: 1px solid red;
+    background-color: var(--creme-escuro);
+    padding: 4rem 5%;
+
+}
+
+.plano-header {
+    text-align: center;
+    margin: 3em;
+
+}
+
+.plano-header h2 {
+
+    font-size: 40px;
+}
+
+.plano-header p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.planos-lista {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 3rem;
+}
+
+.plano {
+    flex: 1;
+    max-width: 260px;
+    overflow: hidden;
+}
+
+.plano-preco { 
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--verde-escuro);
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    /* Deixando em cima do card */
+    margin-bottom: -20px;
+    position: relative;
+    z-index: 1;
+}
+
+.plano-nome {
+    background-color: var(--marrom);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 1.5em 1em;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.plano ul {
+    
+    list-style: none;
+    width: 100%;
+}
+
+.plano li {
+
+    padding: 14px 0;
+    font-size: 14px;
+    text-align: center;
+    color: var(--cinza-texto);
+    border-bottom: 1px solid var(--creme-escuro);
+}
+
+.plano .btn {
+    display: block;
+    text-align: center;
+    padding: 18px;
+    border-radius: 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.plano .btn:hover {
+    background-color: var(--verde-escuro);
+    transition: background-color 0.5s;
+}
+
+.plano.destaque .plano-preco {
+    background-color: var(--destaque); 
+}
+
+.plano.destaque .btn {
+    background-color: var(--destaque);
+}
+
+.plano.destaque .btn:hover {
+    background-color: #9d4b22;
+    transition: background-color 0.5s;
+}
