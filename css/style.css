@@ -366,7 +366,6 @@
 /* fale conosco */
 
 .fale-container {
-    border: 1px solid red;
     background-color: var(--creme); 
     padding: 5rem 2rem;
     min-height: 400px;
@@ -383,9 +382,9 @@
 }
 
 .fale-header h2 {
-    font-size: 2em;
+     font-size: 2em;
      font-family: 'Playfair Display', serif;
-    color: var(--marrom);
+     color: var(--marrom);
 }
 
 .fale-header p {
@@ -445,10 +444,28 @@
     letter-spacing: 1px;
     font-size: 14px;
     padding: 10px 25px;
-    transform: background-color 0.3s;
+    transition: background-color 0.3s;
 }
 
 .fale-container .btn:hover {
     background-color: var(--verde-escuro);
 }
 
+/* footer */
+
+footer {
+    background-color: var(--marrom);
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer p {
+    color: var(--creme-escuro);
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 1px;
+    opacity: 0.6;
+}
