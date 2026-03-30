@@ -7,6 +7,10 @@
     /* outline: 1px solid red; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
   --verde: #3a7d5e;
   --verde-escuro: #2b5e46;
