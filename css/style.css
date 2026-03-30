@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Source Serif 4', Georgia, serif;
+    /* fins de depuração */
+    /* outline: 1px solid red; */
 }
 
 :root {
@@ -479,6 +481,10 @@ footer p {
 @media (max-width: 480px) {
 
 
+    body {
+        overflow-x: hidden;
+    }
+
     /* criando um menu hambúrguer */
 
   .hamburguer {
@@ -493,17 +499,20 @@ footer p {
     .navegacao {
         display: none;          
         width: 100%;
-        border: 1px solid red;
+        overflow: hidden;
     }
 
     .navegacao.aberto {
         display: block;    
     }
 
+    /* cabecalho e combinando com o menu */
+
     .cabecalho {
         flex-wrap: wrap;         
         height: auto;        
         padding: 1rem 2rem;
+        gap: 0;
     } 
     .cabecalho ul {
         flex-direction: column;
@@ -511,4 +520,78 @@ footer p {
         padding: 1rem 0;
         gap: 10px;
     }
+
+    /* info site */
+
+    .info-container {
+        min-height: auto;
+        padding: 4rem 1.5rem;
+    }
+    
+
+    .info-titulo {
+        font-size: 3em;
+
+    }
+
+    .info-btn {
+        font-size: 10px;
+        padding: 8px 14px;
+        letter-spacing: 1px;
+    }
+
+
+    /* servicos  */
+
+
+    .servicos-container {
+        flex-direction: column;
+    }
+
+    /* planos  */
+
+    .planos-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plano {
+        width: 90%;      
+        max-width: 100%;
+    }
+
+    /* busca  */
+
+    .busca-header h2 {
+        font-size: 22px;
+    }
+
+    .busca-header p {
+        font-size: 14px;
+    }
+
+    .busca-input {
+        width: 90%;
+    }
+
+    /* fale conosco  */
+
+
+    .fale-infos {
+        padding: 1rem 0;
+    }
+
+    .fale-linha {
+        flex-direction: column;
+    }
+
+  
+
+    .name,
+    .email,
+    .mensagem {
+    width: 100%;
+    border: 1px solid var(--cinza-texto);
+}
+
 }
