@@ -3,7 +3,7 @@
 
 > Uma interface de biblioteca digital moderna e fluida, construída do zero para desafiar os limites do CSS puro. Sem frameworks. Sem atalhos.
 
-![Demonstração da Interface](https://media.licdn.com/dms/image/v2/D4D22AQFVIfZgtUiXXA/feedshare-shrink_1280/B4DZ1BtWshKQAM-/0/1774923902026?e=1781136000&v=beta&t=CIeFqdpiwWVOkp2NGUBPfEX-Ldhl9w6qHdDgBlDCD78)
+<img width="968" height="628" alt="image" src="https://github.com/user-attachments/assets/1f3e32ba-8515-4d08-a75c-06ee5eabe68d" >
 
 ---
 
